@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- --------------- nav -->
+    <nav class="navbar">
+      <div><h1>LOGO</h1></div>
+      <div class="nav-res">
+        <ul class="nav-list">
+          <li>Home</li>
+          <li>Book Ticket</li>
+          <li>Schedules</li>
+          <li>My Bokkings</li>
+          <li>Contact Us</li>
+          <img class="user" src="./user.jpeg" alt="" />
+        </ul>
+    </div>
+    <div class="nav-menu">
+     <i class="ri-menu-line"></i>
+    </div>
+    </nav>
+
+    <!-- --------------- search -->
+    <div class="search-bar">
+      <div class="search-section">
+        <h6>from</h6>
+        <input type="text" placeholder="Nagpur" />
+      </div>
+      <div class="search-section">
+        <h6>to</h6>
+        <input type="text" placeholder="Wardha" />
+      </div>
+      <div class="search-section">
+        <h6>Travel Date</h6>
+        <input type="date" />
+      </div>
+      <div class="search-section">
+        <h6>Class</h6>
+        <h4>All <i class="ri-arrow-down-s-line"></i></h4>
+      </div>
+      <button class="search-btn">Search</button>
+    </div>
+
+    <div class="train-section">
+        <div class="filter-train">
+            <div class="filter-section">
+                <h4>Ticket Type</h4>
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        <label for="">Free Cancellation</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label for="">Trip Guarantee</label>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="filter-section">
+                <h4>Quick Filter</h4>
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        <label for="">AC</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label for="">Available</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label for="">
+                            Departure after 6 PM</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label for="">
+                            Arrival before 12 PM</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="filter-section">
+                <h4>Arrival Time</h4>
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        <label for="">Morning</label>
+                        <p></p>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label for="">Afternoon</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label for="">
+                            Evening</label>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label for="">
+                            Night</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="train-list">
+            <div class="date-list"></div>
+            <div class="single-train">
+                <div class="single-train-top">
+                    <div class="train-name">
+                        <h4>Sangram Shakti Express</h4>
+                        <h6>#12345</h6>
+                    </div>
+                    <div class="train-timing">
+                        <ul>
+                            <li>
+                                <h4>11:30 pm , tue</h4>
+                            </li>
+                            <li>
+                                <h4>4hr 30min</h4>
+                            </li>
+                            <li>
+                                <h4>12:50 pm , wed</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="single-train-bottom">
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-train">
+                <div class="single-train-top">
+                    <div class="train-name">
+                        <h4>Sangram SHakti Express</h4>
+                        <h6>#12345</h6>
+                    </div>
+                    <div class="train-timing">
+                        <ul>
+                            <li>
+                                <h4>11:30 pm , tue</h4>
+                            </li>
+                            <li>
+                                <h4>4hr 30min</h4>
+                            </li>
+                            <li>
+                                <h4>12:50 pm , wed</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="single-train-bottom">
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-train">
+                <div class="single-train-top">
+                    <div class="train-name">
+                        <h4>Sangram Shakti Express</h4>
+                        <h6>#12345</h6>
+                    </div>
+                    <div class="train-timing">
+                        <ul>
+                            <li>
+                                <h4>11:30 pm , tue</h4>
+                            </li>
+                            <li>
+                                <h4>4hr 30min</h4>
+                            </li>
+                            <li>
+                                <h4>12:50 pm , wed</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="single-train-bottom">
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-train">
+                <div class="single-train-top">
+                    <div class="train-name">
+                        <h4>Sangram SHakti Express</h4>
+                        <h6>#12345</h6>
+                    </div>
+                    <div class="train-timing">
+                        <ul>
+                            <li>
+                                <h4>11:30 pm , tue</h4>
+                            </li>
+                            <li>
+                                <h4>4hr 30min</h4>
+                            </li>
+                            <li>
+                                <h4>12:50 pm , wed</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="single-train-bottom">
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-train">
+                <div class="single-train-top">
+                    <div class="train-name">
+                        <h4>Sangram Shakti Express</h4>
+                        <h6>#12345</h6>
+                    </div>
+                    <div class="train-timing">
+                        <ul>
+                            <li>
+                                <h4>11:30 pm , tue</h4>
+                            </li>
+                            <li>
+                                <h4>4hr 30min</h4>
+                            </li>
+                            <li>
+                                <h4>12:50 pm , wed</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="single-train-bottom">
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-train">
+                <div class="single-train-top">
+                    <div class="train-name">
+                        <h4>Sangram SHakti Express</h4>
+                        <h6>#12345</h6>
+                    </div>
+                    <div class="train-timing">
+                        <ul>
+                            <li>
+                                <h4>11:30 pm , tue</h4>
+                            </li>
+                            <li>
+                                <h4>4hr 30min</h4>
+                            </li>
+                            <li>
+                                <h4>12:50 pm , wed</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="single-train-bottom">
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-train">
+                <div class="single-train-top">
+                    <div class="train-name">
+                        <h4>Sangram Shakti Express</h4>
+                        <h6>#12345</h6>
+                    </div>
+                    <div class="train-timing">
+                        <ul>
+                            <li>
+                                <h4>11:30 pm , tue</h4>
+                            </li>
+                            <li>
+                                <h4>4hr 30min</h4>
+                            </li>
+                            <li>
+                                <h4>12:50 pm , wed</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="single-train-bottom">
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                </div>
+            </div>
+            <div class="single-train">
+                <div class="single-train-top">
+                    <div class="train-name">
+                        <h4>Sangram SHakti Express</h4>
+                        <h6>#12345</h6>
+                    </div>
+                    <div class="train-timing">
+                        <ul>
+                            <li>
+                                <h4>11:30 pm , tue</h4>
+                            </li>
+                            <li>
+                                <h4>4hr 30min</h4>
+                            </li>
+                            <li>
+                                <h4>12:50 pm , wed</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="single-train-bottom">
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                    <div class="train-class">
+                        <div class="class-name">3A</div>
+                        <div class="class-name">₹1090</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------- footer -->
+    <div class="footer">
+      <div class="footer-main">
+        <div class="footer-child">
+          <h4>Features</h4>
+          <ul>
+            <li>Live train location</li>
+            <li>PNR STatus</li>
+            <li>Seat Availability</li>
+            <li>Live train location</li>
+            <li>Live train location</li>
+            <li>Live train location</li>
+          </ul>
+        </div>
+        <div class="footer-child">
+          <h4>Book with Us</h4>
+          <ul>
+            <li>Train Ticket</li>
+            <li>Bus Ticket</li>
+          </ul>
+        </div>
+        <div class="footer-child">
+          <h4>Info</h4>
+          <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>F.A.Q</li>
+            <li>Work with Us</li>
+            <li>Media</li>
+          </ul>
+        </div>
+        <div class="footer-child">
+          <h4>Our Family</h4>
+          <ul>
+            <li>Smart Bus</li>
+          </ul>
+        </div>
+        <div class="footer-child">
+          <h4>YatriRailway</h4>
+          <p class="footer-info">
+            We are a leading train booking service, committed to providing a
+            seamless and convenient travel experience. Book your tickets with
+            ease and enjoy your journey with us.
+          </p>
+          <div class="social-media-section">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-twitter-x-fill"></i>
+            <i class="ri-youtube-fill"></i>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>@Copyright by YatriRailway</p>
+        <p>Term of Use | Privacy</p>
+      </div>
+    </div>
+  </body>
+</html>
